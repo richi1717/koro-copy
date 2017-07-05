@@ -1,0 +1,38 @@
+.btn-container {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .btn-container .btn-padding {
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 150px; }
+
+.card-container {
+  padding: 4px; }
+  .card-container div .btn-purchase {
+    position: fixed;
+    height: 11%;
+    width: 20%;
+    font-size: 3rem;
+    top: 50%; }
+  .card-container div .left {
+    left: 15%;
+    transform: translate(-50%, -50%); }
+  .card-container div .right {
+    right: 15%;
+    transform: translate(50%, -50%); }
+
+.image-view {
+  width: 80px;
+  height: 100px; }
+
+.image-view-selected {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+
+.black {
+  color: black; }

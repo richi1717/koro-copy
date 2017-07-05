@@ -1,0 +1,11 @@
+.image-view {
+  width: 80px;
+  height: 100px;
+}
+
+.image-view-selected {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
